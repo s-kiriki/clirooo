@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:Lato, sans-serif;
+}
+img{
+	margin: 0;
+	padding: 0;
+}
+.flt_l{
+	float: left;
+}
+.flt_r{
+	float: right;
+}
+h1{
+	margin: 5px 0 0 0;
+	padding: 0;
+	float: left;
+}
+a{
+	margin: 0;
+	padding: 0;
+}
+a:hover {
+	opacity:0.7;
+}
+
+/*header*/
+
+#header{
+	background-color:#262626;
+	height:60px;
+	opacity:0.9;
+	width:100%;
+}
+.header_inner{
+	width: 90%;
+	margin:0 auto;
+	overflow: hidden;
+	height:60px;
+}
+.header_inner .flt_r{
+	margin: 15px 20px 0 0;
+}
+
+#header a{
+	font-size:24px;
+	color:#FFFFFF;
+	text-decoration:none;
+	margin:auto 0;	
+}
+
+/*ターミナル
+-----------------------------------*/
+#shell-panel {
+      height: 1000px;
+      width: 100%;
+      opacity: 0.6;
+      padding: 20px 20px 20px 20px;
+      font-family: 'Source Code Pro';
+      overflow: scroll;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      /*border: 1px dashed #E6EBE0;*/
+    }
+    #shell-cli .prompt {
+      font-weight: bold;
+    }
+	
+/*形指定*/
+.polygon{
+    background: url(../images/bg_2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cross{
+    background: url(../images/bg_3.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.metro_logo{
+    background: url(../images/bg_4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+	
+/*色指定*/
+.terminal_black{
+	background-color:#000000;
+}
+.terminal_red{
+	background-color:#F05B5D;
+}
+.terminal_metro_color{
+	background-color:#009fe2;
+}
+
+
+/*テキストカラー指定*/
+
+.terminal_txt_silver{
+	color: silver;
+}
+.terminal_txt_black{
+	color: black;
+}
+
+
+
+
+/*-----------------------------------
+ターミナル*/

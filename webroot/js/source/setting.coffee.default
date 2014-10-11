@@ -1,0 +1,2 @@
+Clirooo.getApiBaseUrl = ->
+	"http://api.clirooo.co/";

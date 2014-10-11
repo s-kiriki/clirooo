@@ -1,0 +1,64 @@
+.tm-text-ginza {
+	color: #f39700
+}
+.tm-text-marunouchi {
+	color: #e60012
+}
+.tm-text-hibiya {
+	color: #9caeb7
+}
+.tm-text-tozai {
+	color: #00a7db
+}
+.tm-text-chiyoda {
+	color: #009944
+}
+.tm-text-yurakucho {
+	color: #d7c447
+}
+.tm-text-hanzomon {
+	color: #9b7cb6
+}.tm-text-namboku {
+	color: #00ada9
+}.tm-text-fukutoshin {
+	color: #bb641d
+}
+
+.tm-text-line-status-delay {
+	color: red;
+	background-color: yellow;
+}
+
+.tm-text-line-status-good {
+	color: green;
+	font-weight: bold
+}
+
+.tm-text-route-link {
+	color: yellow;
+	text-decoration: none;
+}
+
+.tm-text-Local {
+}
+.tm-timetable-stop-type-Express {
+	color: #f39700;
+}
+.tm-timetable-stop-type-SemiExpress {
+	color: #009944;
+}
+.tm-timetable-stop-type-TamaExpress {
+	color: #d7c447;
+}
+.tm-timetable-stop-type-Rapid {
+	color: #e60012;
+}
+.tm-timetable-stop-type-CommuterExpress {
+	color: #9b7cb6;
+}
+.tm-timetable-stop-type-LimitedExpress {
+	color: #bb641d;
+}
+.tm-timetable-stop-type-CommuterRapid {
+	color: #00a7db;
+}

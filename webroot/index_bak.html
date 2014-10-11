@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Clirooo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+    <!--真井追加css&js-->
+    <link rel="stylesheet" href="css/style_default.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+ 
+$(document).ready(
+  function() {
+ 
+    // タイプライター風表示メソッド
+    $.fn.typewriter = function() {
+        this.each(function() {
+            var $ele = $(this), str = $ele.attr("title"), progress = 0;
+            $ele.text('');
+            var timer = setInterval(function() {
+                $ele.text(str.substring(0, progress++) + (progress & 1 ? '_' : ''));
+                if (progress >= str.length) clearInterval(timer);
+            }, 100);
+        });
+        return this;
+    };
+ 
+     // 初回呼び出し
+    $(".word").typewriter();
+ 
+    // その後、15秒ごとに再表示
+    setInterval(function() { 
+        $(".word").typewriter();
+    }, 15000);
+   
+    });
+ 
+</script>
+</head>
+<body>
+<div id="header">
+  <div class="header_inner">
+    <h1><img src="images/clirooo_logo.png" alt="clirooo"></h1>
+    <div class="flt_r">
+      <a href="#document">Documentation</a>
+      <a href="terminal.html">Terminal</a>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="vtr_box">
+    <p class="flt_l">
+	  <iframe src="//player.vimeo.com/video/108196554" width="500" height="317" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </p>
+    <div class="flt_r vtr_box_txt">
+      <h2>Clirooo<br />
+      For Engineers</h2>
+      <p>You can be grasped by a shell on the screen information of Tokyo Metro.</p>
+      <p>Tickle the engineers mind, it is useful tool. <br />Please utilize all means.</p>
+    </div>
+  </div>
+  <div class="cont_box_all">
+    <div class="cont_box h160 mb60">
+      <div title="Try Clirooo&nbsp;!&nbsp;" class="word btn_box_txt"></div> 
+      <p class="btn"><a href="terminal.html">GO TO Terminal</a></p>     
+    </div>
+    <div class="cont_box">
+    <h3 class="mb60">What is Clirooo?</h3>
+    <h4>-&nbsp;Web application can know the information of Tokyo Metro.</h4>
+    <p class="mb40">Based on open data that has been disclosed in the Tokyo Metro app contest, I've created an app that seen in the terminal screen information of Tokyo Metro.<br />
+    You can call a variety of data and information transfer delay assistance, such as number of passengers.
+    </p>
+    <h4>-&nbsp;Is it an app to whom it was directed?</h4>
+    <p class="mb40">It is a web app for engineers who has lived in Tokyo, to use the Tokyo Metro.</p>
+    <h4>-&nbsp;And How do I use the Clirooo?</h4>
+    <p class="mb40">As always, engineers will be able to hit the terminal on the web, to obtain a variety of information.<br />
+    For details on how to use and command, refer to the document page or "help command".</p>
+    </div>
+    
+    
+  </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="footer_inner">
+    <p><img src="images/clirooo_logo_footer.png" alt="clirooo" class="mt20"></p>
+  </div>
+</div>
+</body>
+</html>
+

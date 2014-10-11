@@ -1,0 +1,4 @@
+.vagrant
+
+client/webroot/js/build/build.js
+client/webroot/js/source/setting.coffee
