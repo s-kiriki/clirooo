@@ -8,12 +8,11 @@ do ->
 	         		'status'
 	         		'route'
 	         		'delay'
-	         		'ascii'
 	         		'help'
 	         		'here'
 	         		'config'
 	         		'timetable'
-	         		'invite'
+	         		'docs'
 	         	]
 	
 	Clirooo.CmdHandler.enableCliroooCommandMode = (shell) ->
@@ -56,12 +55,7 @@ do ->
 						param = args.slice(1)
 						Clirooo.Config.getResponse( shell, param, (res) -> callback res )
 					)
-					when 'ascii' then callback Clirooo.Ascii.getResponse()
-					when 'mannar' then callback Clirooo.Mannar.getResponse()
-					when 'invite' then ( 
-						param = args.slice(1)
-						Clirooo.Invite.getResponse( param, (res) -> callback res )
-					)					
+					when 'docs' then callback Clirooo.Docs.getResponse()
 					else callback Clirooo.Help.getResponse()
 				
 			

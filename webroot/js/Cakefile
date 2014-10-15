@@ -13,8 +13,6 @@ files = [
     'util.coffee'
     'subcommand/station.coffee'
     'subcommand/help.coffee'
-    'subcommand/mannar.coffee'
-    'subcommand/ascii.coffee'
     'subcommand/status.coffee'
     'subcommand/delay.coffee'
     'subcommand/line.coffee'
@@ -22,7 +20,7 @@ files = [
     'subcommand/route.coffee'
     'subcommand/here.coffee'
     'subcommand/config.coffee'
-    'subcommand/invite.coffee'
+    'subcommand/docs.coffee'
     'console.coffee'
     'cmd-handler.coffee'
 ]
