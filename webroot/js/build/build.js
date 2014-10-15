@@ -61,7 +61,7 @@
 
   (function() {
     return Clirooo.Help.getResponse = function() {
-      return "Usage: clirooo SUBCOMMAND (options)<br />\n&nbsp;<code>clirooo station STATION</code><br />\n&nbsp;<code>clirooo line [LINE]</code><br />\n&nbsp;<code>clirooo status [LINE]</code><br />\n&nbsp;<code>clirooo delay</code><br />\n&nbsp;<code>clirooo route STATION(from) STATION(to) [options]</code><br />\n&nbsp;<code>clirooo ascii [ASCII_NAME]</code><br />\n<br />\n<span>For further help:</span><br />\n&nbsp;<code>clirooo [SUBCOMMAND] --help</code>	";
+      return "Usage: clirooo SUBCOMMAND (options)<br />\n&nbsp;<code>clirooo delay</code><br />\n&nbsp;<code>clirooo here</code><br />\n&nbsp;<code>clirooo line [LINE]</code><br />\n&nbsp;<code>clirooo route STATION(FROM) STATION(TO) [options]</code><br />\n&nbsp;<code>clirooo station STATION</code><br />\n&nbsp;<code>clirooo status</code><br />\n&nbsp;<code>clirooo timetable STATION</code><br />";
     };
   })();
 
