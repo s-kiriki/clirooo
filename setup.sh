@@ -1,5 +1,5 @@
 #!/bin/bash
 
-if [[ ! -r client/webroot/js/source/setting.coffee ]]; then
- /bin/cp client/webroot/js/source/setting.coffee.default client/webroot/js/source/setting.coffee
+if [[ ! -r webroot/js/source/setting.coffee ]]; then
+ /bin/cp webroot/js/source/setting.coffee.default webroot/js/source/setting.coffee
 fi
