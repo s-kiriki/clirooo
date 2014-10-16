@@ -48,7 +48,7 @@ p{
 
 #header{
 	background-color:#262626;
-	height:100px;
+	height:80px;
 	opacity:0.9;
 	width:100%;
 }
@@ -59,7 +59,7 @@ p{
 	height:140px;
 }
 .header_inner .flt_r{
-	margin: 35px 20px 0 0;
+	margin: 15px 20px 0 0;
 }
 .header_inner .flt_r a{
 	padding-left: 20px;
