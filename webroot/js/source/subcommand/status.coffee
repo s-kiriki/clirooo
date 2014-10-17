@@ -1,3 +1,4 @@
+
 Clirooo.Status = Clirooo.Status || {}
 
 do ->

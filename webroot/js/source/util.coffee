@@ -1,3 +1,4 @@
+
 Clirooo.Util = Clirooo.Util || {}
 
 do ->

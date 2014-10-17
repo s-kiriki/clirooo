@@ -1,3 +1,4 @@
+
 Clirooo.CmdHandler = Clirooo.CmdHandler || {}
 
 do ->

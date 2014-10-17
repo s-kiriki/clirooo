@@ -1,3 +1,4 @@
+
 Clirooo.Invite = Clirooo.Invite || {}
 
 do ->

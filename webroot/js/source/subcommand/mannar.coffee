@@ -1,3 +1,4 @@
+
 Clirooo.Mannar = Clirooo.Mannar || {}
 
 do ->

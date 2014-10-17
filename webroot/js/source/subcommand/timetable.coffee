@@ -1,3 +1,4 @@
+
 Clirooo.Timetable = Clirooo.Timetable || {}
 
 do ->

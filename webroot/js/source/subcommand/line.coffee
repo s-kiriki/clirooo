@@ -1,3 +1,4 @@
+
 Clirooo.Line = Clirooo.Line || {}
 
 do ->

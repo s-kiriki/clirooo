@@ -1,3 +1,4 @@
+
 Clirooo.Ascii = Clirooo.Ascii || {}
 
 do ->
